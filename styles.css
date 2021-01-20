@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    background-color: #099dfd;
+}
+
+#flexC{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#circleBorder{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 550px;
+    height: 550px;
+    border-radius: 1000px;
+    background-color: #ffffff4b;
+    justify-items: center;
+    margin-bottom: 60px;
+}
+
+#pic{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#imageContainer{
+    width: 500px;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+#bottomText{
+    font-size: 1.75rem;
+    color: white;
+}
+
+
+.right-side{
+    background-color: white;
+    width: 50vw;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.logo{
+    width: 30%;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoC{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.loginC{
+    margin-top: 20vh;
+}
+
+#heading{
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
+#highlighted{
+    color: #099dfd;
+}
+
+#email{
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 90%;
+    font-size: 1.25rem;
+    border: 2px solid #099dfd;
+    border-radius: 5px;
+}
+.submitButton{
+    background-color: #099dfd;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 10px;
+}
+
+
+
+
+
